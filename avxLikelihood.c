@@ -11,7 +11,7 @@
 #include "axml.h"
 #include <stdint.h>
 #define SIMDE_ENABLE_NATIVE_ALIASES
-#include <simde/x86/avx.h>
+#include "simde/x86/avx.h"
 
 #ifdef _FMA_NATIVE
 #define FMAMACC(a,b,c) _mm256_fmadd_pd(b,c,a) 

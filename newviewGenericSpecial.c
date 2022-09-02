@@ -44,7 +44,7 @@
 
 #include <stdint.h>
 #define SIMDE_ENABLE_NATIVE_ALIASES
-#include <simde/x86/avx.h>
+#include "simde/x86/avx.h"
 
 const union __attribute__ ((aligned (BYTE_ALIGNMENT)))
 {

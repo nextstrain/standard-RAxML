@@ -47,7 +47,7 @@
 #include <stdint.h>
 
 #define SIMDE_ENABLE_NATIVE_ALIASES
-#include <simde/x86/avx.h>
+#include "simde/x86/avx.h"
 
 #include "axml.h"
 
