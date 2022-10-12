@@ -1,6 +1,6 @@
 # Makefile November 2009 by Alexandros Stamatakis
 
-CC = mpicc 
+CC ?= mpicc 
 
 CFLAGS = -I. -D_WAYNE_MPI -D_GNU_SOURCE -fomit-frame-pointer -funroll-loops -O2  -msse
 
